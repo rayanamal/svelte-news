@@ -2,6 +2,9 @@
   "version": "5",
   "specifiers": {
     "npm:@eslint/js@^10.0.1": "10.0.1_eslint@10.11.0",
+    "npm:@fontsource-variable/geist-mono@^5.3.0": "5.3.0",
+    "npm:@fontsource-variable/inter@^5.3.0": "5.3.0",
+    "npm:@fontsource-variable/space-grotesk@^5.3.0": "5.3.0",
     "npm:@playwright/test@^1.60.0": "1.63.0",
     "npm:@sveltejs/adapter-auto@^7.0.1": "7.0.1_@sveltejs+kit@2.70.3_@sveltejs+vite-plugin-svelte@7.3.0_@types+node@24.13.6_svelte@5.57.1_typescript@6.0.3_vite@8.3.0",
     "npm:@sveltejs/kit@^2.63.0": "2.70.3_@sveltejs+vite-plugin-svelte@7.3.0_svelte@5.57.1_typescript@6.0.3_vite@8.3.0_@types+node@24.13.6",
@@ -94,6 +97,15 @@
         "@eslint/core",
         "levn"
       ]
+    },
+    "@fontsource-variable/geist-mono@5.3.0": {
+      "integrity": "sha512-vBbuwDEo9AkrqADMXOrlAR3DFcJi4/JxeuU43FoiQERnNwsfXNnvxvReZG02cQKmyk4DZkZdBZX3oTDvy2zBAw=="
+    },
+    "@fontsource-variable/inter@5.3.0": {
+      "integrity": "sha512-OupL48va4JNofb97w6NYeF9S7W/kHNKM0Er8Dem5nqi4jeOLrVJDoE8tZEpnMJmtkvNbB1EIPPwHcdkF6b1oUA=="
+    },
+    "@fontsource-variable/space-grotesk@5.3.0": {
+      "integrity": "sha512-2IxmvfB08i9vnGB3Ym/AXvhRE+8XOjWMXIyDum03c+tPwH0FUoMNQfGpU8NXPxjbws0Vvss3AH0Zqt4oJBBAdw=="
     },
     "@humanfs/core@0.19.2": {
       "integrity": "sha512-UhXNm+CFMWcbChXywFwkmhqjs3PRCmcSa/hfBgLIb7oQ5HNb1wS0icWsGtSAUNgefHeI+eBrA8I1fxmbHsGdvA==",
@@ -1594,6 +1606,9 @@
     "packageJson": {
       "dependencies": [
         "npm:@eslint/js@^10.0.1",
+        "npm:@fontsource-variable/geist-mono@^5.3.0",
+        "npm:@fontsource-variable/inter@^5.3.0",
+        "npm:@fontsource-variable/space-grotesk@^5.3.0",
         "npm:@playwright/test@^1.60.0",
         "npm:@sveltejs/adapter-auto@^7.0.1",
         "npm:@sveltejs/kit@^2.63.0",
